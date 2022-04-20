@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/studentFullName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="firstname lastname"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/studentId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="ID"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/idNotEditable"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="#5C8F9193"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:state_enabled="false"
+                    android:text="i-dee"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic"></TextView>
+            </TableRow>
+
+            <TableRow android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/studentFirstName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="First Name"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <EditText
+                    android:id="@+id/editStudentFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="somefirstname"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></EditText>
+            </TableRow>
+
+            <TableRow android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/studentLastName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Last Name"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <EditText
+                    android:id="@+id/editStudentLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="somelastname"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></EditText>
+            </TableRow>
+
+            <TableRow android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/studentEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Email"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <EditText
+                    android:id="@+id/editStudentEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="someemail@test.com"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></EditText>
+            </TableRow>
+
+            <TableRow android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/studentPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Password"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <EditText
+                    android:id="@+id/editStudentPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="somepassword"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></EditText>
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/updateStudentDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="update" />
+
+    </LinearLayout>
+
+</ScrollView>

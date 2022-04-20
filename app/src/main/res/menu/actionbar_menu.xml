@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bestinstituteofstudies.MainActivity">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gallery"
+        android:title="Gallery"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/LogOrReg"
+        android:title="Login or Register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/manageStudents"
+        android:title="Manage Students"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

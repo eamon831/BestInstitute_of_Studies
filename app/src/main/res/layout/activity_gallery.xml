@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/gallery_imageview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/student_city" />
+
+                <TextView
+                    android:id="@+id/tour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginEnd="190dp"
+                    android:layout_marginBottom="86dp"
+                    android:text="Take a tour of\nour campus"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/helens"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="St Helens Campus"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/campus1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/campus4" />
+
+                        <ImageView
+                            android:id="@+id/campus2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/campus3" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/campus3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/campus1" />
+
+                        <ImageView
+                            android:id="@+id/campus4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/campus2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/classes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="Class"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/class1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/class1" />
+
+                        <ImageView
+                            android:id="@+id/class2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/class2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/class3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/class3" />
+
+                        <ImageView
+                            android:id="@+id/class4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/class4" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/graduation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="Graduation Ceremony"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/graduation1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/graduate1" />
+
+                        <ImageView
+                            android:id="@+id/graduation2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/graduate2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/graduation3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/graduate3" />
+
+                        <ImageView
+                            android:id="@+id/graduation4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:paddingRight="5dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@mipmap/graduate4" />
+                    </TableRow>
+
+                </TableLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

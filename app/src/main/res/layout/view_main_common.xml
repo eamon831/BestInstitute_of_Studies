@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:srcCompat="@mipmap/logo" />
+
+            <TextView
+                android:id="@+id/bis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Best Institute of Studies"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/nzqa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An NZQA category 1 provider"
+                android:textColor="#FF0000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/leading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of New Zealand’s  leading tertiary learning organisations"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/desc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:text="At BIS, we provide quality, personalised education, and a supportive environment for our students to learn, develop and achieve. BIS is committed to ensuring all our students, whether from New Zealand or overseas, are equipped with everything they need to succeed, while studying for their qualifications, and beyond in the workplace."
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/desc1_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/students_park" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/haere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haere mai"
+                android:textColor="#FF0000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Best Institute of Studies"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:text="Best Institute of Studies is one of New Zealand’s largest independent degree-granting institutions.\n\nYou will benefit from studying one of a wide range of NZQA-approved qualifications, including diploma and degree programmes in business, tourism management, hospitality management, information technology (IT), business administration and English language. \n\nOur flexible three-semester system and cross credit recognition allows you to fast-track your studies and get a head start on your career. \n\nA friendly and nurturing environment balances and supports our rigorous academic programmes. At BIS you will experience expert personalised education in small classes. Whether from New Zealand or overseas, you will receive everything you need to feel comfortable and confident while studying with us – ensuring that you are well-equipped to succeed once you complete your qualification."
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="News"
+                android:textColor="#FF0000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/news1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="News: Traffic light settings for our students"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/desc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:text="We are now at Omicron Phase 3. This does not change the Protection Framework (Traffic Light Settings) but rather relates to how the government manages positive COVID cases and close contacts. At this level, remote work and study is still advisable. Read more to know what does this means for BIS students."
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/readMoreTrafficLight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Read More" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/desc3_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/cpf" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
